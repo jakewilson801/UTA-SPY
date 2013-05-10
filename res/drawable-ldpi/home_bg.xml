@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+   <!-- UTA BLUE #0854A9-->
+	<gradient
+		android:startColor="#0854A9"
+		android:endColor="#F3F3F3"
+		android:angle="270"
+		android:type="linear" />
+</shape>

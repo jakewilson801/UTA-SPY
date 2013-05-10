@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#ED1C24"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/b1"
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:layout_toLeftOf="@+id/tv1"
+            android:src="#ffffffff"
+            android:text="@string/hello" />
+
+        <ImageView
+            android:id="@+id/b1"
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:layout_toRightOf="@+id/tv1"
+            android:src="#ffffffff"
+            android:text="@string/hello" />
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/refresh" -->
+        <!-- android:layout_width="25dip" -->
+        <!-- android:layout_height="25dip" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:layout_marginLeft="20dp" -->
+        <!-- android:layout_marginRight="20dp" -->
+        <!-- android:scaleType="fitXY" -->
+        <!-- android:src="@drawable/refresh_selector" -->
+        <!-- android:text="@string/hello" /> -->
+
+        <ProgressBar
+            android:id="@+id/prograssbar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/refresh"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="About"
+            android:textColor="#ffffff"
+            android:textSize="7pt"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imview1"
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="#ffffffff"
+            android:text="@string/hello" />
+
+        <ImageView
+            android:id="@+id/imview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/tv1"
+            android:src="@drawable/train2" />
+
+        <ImageView
+            android:id="@+id/imview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/tv1"
+            android:src="@drawable/bus" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/actionbar1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text="By: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Jacob Wilson"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="By: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="By: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="20dp"
+        android:text="Email:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/textView3"
+        android:text="jakewilson555@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ED1C24" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Rate This Application"
+        android:textColor="#ED1C24" />
+
+</RelativeLayout>
