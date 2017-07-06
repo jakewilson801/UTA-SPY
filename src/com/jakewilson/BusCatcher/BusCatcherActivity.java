@@ -64,15 +64,6 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.Overlay;
 
 public class BusCatcherActivity extends MapActivity {
-
-	// /////////Test points
-	// salt lake city lat 40.760146 lng -111.907770
-	// //////////////////////////////////
-	//
-	//
-	// http://maps.googleapis.com/maps/api/geocode/json?address=877+West+1145+North,+Clinton,+UT&sensor=false
-	// LAZY LOADING AND ADDRESS SEARCHING
-
 	protected InputStream is;
 	protected static final int CONTEXTMENU_DELETEITEM = 0;
 	protected static final String PREFS = "prefs";
